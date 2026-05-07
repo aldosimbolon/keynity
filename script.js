@@ -111,13 +111,40 @@ window.addEventListener("load", () => {
   setTimeout(spawnConfetti, 300);
 });
 
-// ===== ANALYTICS HOOK (optional) =====
-// Untuk laporan tugas: track berapa kali QR di-scan
-// Uncomment & ganti dengan Google Analytics ID kamu
-
 (function() {
+  // Track sumber visitor (dari QR / direct / sosmed)
   const params = new URLSearchParams(window.location.search);
   const source = params.get('utm_source') || 'direct';
   console.log('Visitor source:', source);
-  // gtag('event', 'qr_scan', { source });
+  
+  // Kirim event ke Google Analytics
+  if (typeof gtag === 'function') {
+    gtag('event', 'qr_scan', { 
+      source: source,
+      page: 'home'
+    });
+  }
 })();
+
+// Track klik playlist
+document.querySelectorAll('.playlist-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const playlistName = card.querySelector('.playlist-title').textContent;
+    if (typeof gtag === 'function') {
+      gtag('event', 'playlist_click', {
+        playlist_name: playlistName
+      });
+    }
+    console.log('Playlist clicked:', playlistName);
+  });
+});
+
+// Track klik tombol "Get Another Quote"
+const quoteBtn = document.getElementById('newQuoteBtn');
+if (quoteBtn) {
+  quoteBtn.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'new_quote_click');
+    }
+  });
+}
