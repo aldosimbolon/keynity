@@ -1,15 +1,25 @@
 // ===== QUOTE COLLECTION =====
 const quotes = [
-  { text: "Small things make big differences ✨", author: "Keynity Team" },
-  { text: "Carry a little joy with you everywhere 🎀", author: "Daily Reminder" },
-  { text: "You are the main character of your story 💖", author: "Keynity Vibes" },
-  { text: "Soft heart, strong soul 🌸", author: "Self Love Club" },
-  { text: "Today is a good day to be happy ☀️", author: "Mood Booster" },
-  { text: "Bloom where you are planted 🌷", author: "Garden of Life" },
-  { text: "Every accessory tells a story 💫", author: "Keynity Team" },
-  { text: "Be your own kind of beautiful 💕", author: "Confidence Notes" },
-  { text: "Stay soft, but never weak 🫧", author: "Keynity Mantra" },
-  { text: "Good vibes only, always 🌈", author: "Daily Energy" },
+  {
+    text: `Hii hii!!
+Just a small boost for today ✨
+Apa pun yang lagi dikerjain, semoga lancar ya.
+
+Pelan atau cepat nggak masalah,
+yang penting tetap jalan.
+
+Semangattt`,
+    author: "Person N"
+  },
+  {
+    text: `Hey there 🤩 how's your day?
+Semoga hari ini berjalan dengan vibe yang enak ✨
+Kalaupun ada yang kurang pas, santai aja...
+
+Good things still find their way kok.
+Take care ✨`,
+    author: "Person N lagi"
+  }
 ];
 
 // ===== QUOTE ROTATOR =====
