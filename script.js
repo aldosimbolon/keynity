@@ -17,9 +17,9 @@ semangattt yaaa ✨`,
     text: `Hey you 🌙 
 hope today's been kind to you
 Kalau lagi berat, nggak apa-apa kok...
-Nggak semua hari harus sempurna 🍃
+ga semua hari harus sempurna 🍃
 Rest when you need to, you're doing fine.
-Be gentle with yourself ya ✨`,
+Be gentle with yourself yaa ✨`,
     author: "@deansiregar1609"
   },
   {
