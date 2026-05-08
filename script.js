@@ -14,12 +14,12 @@ semangattt yaaa ✨`,
     author: "@formynee"
   },
   {
-    text: `Hey there 🤩 how's your day?
-Semoga hari ini berjalan dengan vibe yang enak ✨
-Kalaupun ada yang kurang pas, santai aja...
-
-Good things still find their way kok.
-Take care ✨`,
+    text: `Hey you 🌙 
+hope today's been kind to you
+Kalau lagi berat, nggak apa-apa kok...
+Nggak semua hari harus sempurna 🍃
+Rest when you need to, you're doing fine.
+Be gentle with yourself ya ✨`,
     author: "@deansiregar1609"
   },
   {
