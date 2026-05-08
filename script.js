@@ -1,15 +1,17 @@
 // ===== QUOTE COLLECTION =====
 const quotes = [
   {
-    text: `Hii hii!!
+    text: `Hii hiii!! 
 Just a small boost for today ✨
 Apa pun yang lagi dikerjain, semoga lancar ya.
 
-Pelan atau cepat nggak masalah,
-yang penting tetap jalan.
+Semoga hari ini ada banyak hal kecil yang bikin kamu senyum 🤍
+entah itu hal random yang bikin happy,
+atau sesuatu baik yang datang pelan-pelan tanpa disangka ✨
 
-Semangattt`,
-    author: "Person N"
+Good things still find their way kok
+semangattt yaaa ✨`,
+    author: "@formynee"
   },
   {
     text: `Hey there 🤩 how's your day?
@@ -18,8 +20,26 @@ Kalaupun ada yang kurang pas, santai aja...
 
 Good things still find their way kok.
 Take care ✨`,
-    author: "Person N lagi"
-  }
+    author: "@deansiregar1609"
+  },
+  {
+    text: `Hii hii 🌷✨
+Sometimes hidup emang random, but so are beautiful things 🌈
+Stay soft, stay kind, stay you 🤍
+Semoga hari ini ada hal-hal kecil yang bikin kamu senyum yaa,
+dan kalau pun capek, jangan lupa istirahat juga ☁️
+Take care and keep going🥰`,
+    author: "@evlynsllhics_lxlol"
+  },
+  {
+    text: `Haii cantikk✨
+Just in case nobody told you today:
+you deserve good things too 🌷🤍
+Semoga hari ini hati kamu lebih ringan, pikiran kamu lebih tenang,
+dan semua yang kamu usahakan pelan-pelan membaik 🌤️
+Take your time yaa, life isn’t a race 💫`,
+    author: "@aldo.simbolon_"
+  },
 ];
 
 // ===== QUOTE ROTATOR =====
